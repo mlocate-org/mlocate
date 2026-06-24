@@ -105,8 +105,8 @@ dir_path_cmp (const char *a, const char *b)
 }
 
 /* Used by obstack code */
-struct _obstack_chunk *
-obstack_chunk_alloc (long size)
+void *
+obstack_chunk_alloc (size_t size)
 {
   return xmalloc (size);
 }

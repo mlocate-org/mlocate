@@ -55,7 +55,7 @@ extern void dir_path_cmp_init (void);
 extern int dir_path_cmp (const char *a, const char *b);
 
 /* Functions used by obstack code */
-extern struct _obstack_chunk *obstack_chunk_alloc (long size);
+extern void *obstack_chunk_alloc (size_t size);
 
 #define obstack_chunk_free free
 

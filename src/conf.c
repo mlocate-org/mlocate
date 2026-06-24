@@ -26,7 +26,6 @@ Author: Miloslav Trmac <mitr@redhat.com> */
 #include <unistd.h>
 
 #include <getopt.h>
-#include "canonicalize.h"
 #include "error.h"
 #include "obstack.h"
 #include "xalloc.h"
