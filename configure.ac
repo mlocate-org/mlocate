@@ -37,7 +37,7 @@ gl_INIT
 
 # Checks for libraries.
 AM_GNU_GETTEXT([external], [need-ngettext])
-AM_GNU_GETTEXT_VERSION([0.18.2])
+AM_GNU_GETTEXT_VERSION([0.26])
 
 # Checks for header files.
 
